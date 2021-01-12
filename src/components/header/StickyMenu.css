@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+.nav_stickyMenu{
+    background-color: #fafafa;
+    ;
+}
+
+.nav_stickyMenu > ul{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+
+.nav_stickyMenu > ul > li{
+    margin-right: 30px;
+}
+
+.nav_stickyMenu > ul > li > a{
+    color: rgb(48, 48, 48);
+    font-family: myriad-pro-condensed;
+    font-weight: lighter;
+}
