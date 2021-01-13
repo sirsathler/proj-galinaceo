@@ -16,7 +16,7 @@ export default props => {
         <div class='div_card'>
 
             <div class='div_header'>
-                <div class='div_headerImg' style={cardImageStyle} />
+                <img class='div_headerImg' src={src}/>
             </div>
 
             <div class='div_body'>
@@ -28,7 +28,6 @@ export default props => {
                     {description}
                 </p>
             </div>
-
             <hr />
             <div class='div_footer'>
                 

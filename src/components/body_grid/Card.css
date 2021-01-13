@@ -3,6 +3,7 @@
     border-radius: 10px;
     text-align: center;
     max-width: 350px;
+    max-height: 388px;
     height: auto;
     overflow: hidden;
 }
@@ -23,7 +24,7 @@
 }
 
 .div_headerImg{
-    width: auto;
+    width: 100%;
     height: 120px;
     min-height: 100%;
 }
@@ -43,7 +44,7 @@
 }
 
 .div_card > hr{
-    margin: 100px 0px 15px 15px;
+    margin: 100px 15px 15px 15px;
     border-bottom: 1px solid gray;
 }
 
