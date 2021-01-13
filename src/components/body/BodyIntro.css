@@ -22,8 +22,9 @@
 }
 
 .p_homeText{
-    margin-left: 200px;
+    margin-left: 350px;
 }
+
 .p_homeText > h3 {
     font-weight: bold;
     font-family: source-sans-pro, sans-serif;
@@ -35,4 +36,15 @@
     font-family: source-sans-pro, sans-serif;
     font-size: 20px;
     max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.p_homeText > a{
+    padding: 10px;
+    background-color: #1473e6;
+    color: white;
+    font-family: source-sans-pro, sans-serif;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: bolder;
 }

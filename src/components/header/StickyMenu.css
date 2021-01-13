@@ -14,7 +14,7 @@
 
 .nav_stickyMenu > ul{
     display: flex;
-    padding: 40px;
+    padding: 30px;
     justify-content: center;
 }
 
@@ -22,8 +22,17 @@
     margin-right: 30px;
 }
 
-.nav_stickyMenu > ul > li > a{
+.li_stickyMenuItem{
     color: rgb(48, 48, 48);
     font-family: myriad-pro-condensed;
     font-weight: lighter;
+}
+
+.buyNow{
+    border: #1473e6 1px solid;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: myriad-pro-condensed;
+    background-color:#1473e6;
+    color: white;
 }

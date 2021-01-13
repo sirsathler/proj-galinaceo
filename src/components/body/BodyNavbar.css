@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+.ul_bodyNavbar{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px rgb(245, 245, 245);
+}
+
+.ul_bodyNavbar > li{
+    padding: 10px;
+    font-size: 13px;
+    font-family: source-sans-pro, sans-serif;
+    border-bottom: solid 1px black;
+    margin-right: 10px;
+}

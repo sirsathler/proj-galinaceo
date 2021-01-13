@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+.div_parent{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.div_bodyGrid{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+

@@ -1,0 +1,28 @@
+.div_card{
+    height: auto;
+    border: solid black 1px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 350px;
+}
+
+.div_cardHeader{
+    display: flex;
+    align-items: center;
+    margin: 10px
+}
+
+.div_cardHeader > span{
+    margin-left: 18px;
+}
+
+.img_icon{
+    width: auto;
+    height: 40px;
+}
+
+.img_cardImg{
+    width: auto;
+    height: auto;
+    max-width: 200%;
+}
