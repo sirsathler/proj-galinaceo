@@ -8,16 +8,33 @@ export default props => {
     const title = props.title
     const description = props.description
 
+    const cardImageStyle = {
+        backgroundImage: "url(" + src + ")"
+    }
+
     return (
         <div class='div_card'>
-            <img class='img_cardImg' src={src} />
-            <div class='div_cardHeader'>
-                <img class='img_icon'src={icon} />
-                <span>{title}</span>
+
+            <div class='div_header'>
+                <div class='div_headerImg' style={cardImageStyle} />
             </div>
-            <p>
-                {description}
-            </p>
+
+            <div class='div_body'>
+                <div class='div_title'>
+                    <img class='img_cardIcon' src={icon} />
+                    <span>{title}</span>
+                </div>
+                <p>
+                    {description}
+                </p>
+            </div>
+
+            <hr />
+            <div class='div_footer'>
+                
+                <li>Experimente gratuitamente</li>
+            </div>
+
         </div>
     )
 
