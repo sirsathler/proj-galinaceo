@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     border-bottom: solid 1px rgb(245, 245, 245);
+    background-color: white;
 }
 
 .ul_bodyNavbar > li{

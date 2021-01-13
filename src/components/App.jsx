@@ -22,7 +22,6 @@ function App() {
                 <BodyInfo/>
                 <BodyGrid/>
             </body>
-
         </div>
     )
 }
